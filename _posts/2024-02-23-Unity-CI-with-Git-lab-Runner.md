@@ -12,8 +12,8 @@ Git 서버에 올라와있는 프로젝트를 기반으로 Jenkins를 구성하�
 
 ```mermaid
 graph LR;
-    Git(<img src="./public/img/git.png" width="44%" height="44%"/> Git)
-    Master(<img src="./public/img/docker_icon.png" width="44%" height="44%"/> 
+    Git(<img src="..\public/img/git.png" width="44%" height="44%"/> Git)
+    Master(<img src="..\public/img/docker_icon.png" width="44%" height="44%"/> 
     Jenkins 
     Server
     )
@@ -55,7 +55,7 @@ Docker는 설치되어 있는 걸로 가정한다.
     Unity 자동 빌드를 위한 Plugin (Unity3d)를 설치하고 Tools에 Unity 등록을 해야됨
     - Agent Node를 활용하여 잡을 구설할 경우 Master node에서는 Installation Directory를 비워놓으면 된다. 나는 Master-Agent를 구성할 것이기 때문에 비워둔채로 진행한다.
 
-    <img src="./public/img/Unity_Setting.png" width="100%" height="100%"/>
+    <img src="..\public/img/Unity_Setting.png" width="150%" height="150%"/>
 
 4. Project 추가 및 구성
 
