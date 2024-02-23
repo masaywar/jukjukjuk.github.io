@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Unity-Jenkins CI 환경 구성하기
-permalink: /post/
+date: 2024-02-23 15:23:00 +0900
 categories: Unity, Jenkins, CI
 toc: true
 ---
