@@ -42,11 +42,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 html {
-	height: 150%;
+	height: 100%;
 }
 
 body {
-	height: 150%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
@@ -81,14 +81,19 @@ code {
 .container {
 	min-height: 100%;
 	display: flex;
-	justify-content: space-between;
 	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.content-wrapper {
+	flex: 1 1 auto;
+	padding: 0px 30px;
 }
 
 .content {
-	/*margin-left: 180px;*/
-	flex: 1 1 auto;
-	padding: 0px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;	
 }
 
 .sidebar {
@@ -221,11 +226,6 @@ blockquote {
   	margin-bottom: 15px;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 article h1,
 article h2,
 article h3,
@@ -305,7 +305,7 @@ footer {
 		line-height: 1.5;
 	}
 
-	.content {
+	.content-wrapper {
 		padding: 0px;
 	}
 	.container {
